@@ -1,0 +1,41 @@
+{
+  "name": "tutorial-fluxxor",
+  "version": "1.0.0",
+  "description": "FluxxorのQuick-Start GuideにあるBasic Todos Exampleです。",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minoru-cw/tutorial-Fluxxor.git"
+  },
+  "dependencies": {
+    "fluxxor": "^1.7.1",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0",
+    "fs": "^0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-if": "^1.2.5",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "http": "^0.0.0",
+    "path": "^0.12.7",
+    "pretty-hrtime": "^1.0.0",
+    "url": "^0.11.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "node_modules/gulp/bin/gulp.js js",
+    "watch": "node_modules/gulp/bin/gulp.js watchify"
+  },
+  "author": "",
+  "license": "ISC"
+}
