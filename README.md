@@ -1,18 +1,25 @@
 # tutorial-Fluxxor
+
 FluxxorのTodoチュートリアルです。
+[Fluxxor - Quick-Start Guide](http://fluxxor.com/guides/quick-start.html)
 
-## 前提
-Node.jsをインストールしておいてください。
+## Requirement
 
-## インストール
+[Node.js](https://nodejs.org/en)をインストールしておいてください。
+
+## Install
+
 クローンしたらディレクトリに移動して依存ファイルをインストールします。  
-`
+
+```
 $ npm install
-`
+```
 
 インストールが終わったらWebサーバーを起動します。  
-`
-$ npm start
-`
 
-http://localhost:3000にアクセスします。
+```
+$ npm start
+```
+
+ローカルに立ち上がったWebサーバーにアクセスします。  
+[http://localhost:3000](http://localhost:3000)
